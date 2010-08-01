@@ -1,5 +1,31 @@
 <?php
 
-$string['blockname'] = 'Unread consultations';
+// This file is part of Consultation module for Moodle
+//
+// Consultation is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Consultation is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * block_unread_consultations lang pack
+ *
+ * @package    block
+ * @subpackage consultation_unread
+ * @copyright  2009 Petr Skoda {@link http://skodak.org}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
 $string['nounread'] = 'None';
+$string['pluginname'] = 'Unread consultations';
 $string['unreaditem'] = '<a href="{$a->link}">{$a->name} ({$a->unread})</a>';

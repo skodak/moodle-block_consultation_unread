@@ -16,7 +16,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * block_unread_consultations lang pack
+ * Version file for unread_consultations block
  *
  * @package    block
  * @subpackage consultation_unread
@@ -24,6 +24,6 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Nepřečtené dotazy';
-$string['nounread'] = 'Žádné';
-$string['unreaditem'] = '<a href="{$a->link}">{$a->name} ({$a->unread})</a>';
+defined('MOODLE_INTERNAL') || die();
+
+$plugin->version = 2010080100;

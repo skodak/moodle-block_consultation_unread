@@ -1,1 +1,11 @@
-Unread consultation requests block for Moodle, requires consultation module.
+Unread consultation requests block for Moodle.
+This block requires the mod/consultation module to be installed at the same time.
+
+You can redistribute this plugin and/or modify it under the terms of the GNU General
+Public License as published by the Free Software Foundation, either version 3 of
+the License, or (at your option) any later version.
+
+More information at http://github.com/skodak/consultation_unread
+
+
+Petr Skoda
